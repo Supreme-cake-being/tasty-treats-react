@@ -69,3 +69,11 @@ img {
   src: url('@assets/fonts/inter-v12-latin-600.woff2') format('woff2'),
     url('@assets/fonts/inter-v12-latin-600.woff') format('woff');
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(5, 5, 5, 0.18);
+}
