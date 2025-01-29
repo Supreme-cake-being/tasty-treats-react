@@ -83,6 +83,17 @@ export const StyledButton = styled.button<{
     }
   `}
 
+  ${({ theme, variant, active }) =>
+    variant === 'outlined' &&
+    active &&
+    `
+    color: ${theme.colors.white};
+
+    background-color: ${theme.colors.green};
+
+    border-color: transparent;
+  `}
+
   ${({ theme, variant, location }) =>
     variant === 'outlined' &&
     location === 'hero' &&

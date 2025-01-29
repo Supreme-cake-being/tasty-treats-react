@@ -16,9 +16,7 @@ interface Recipe {
 }
 
 export const PopularRecipes = () => {
-  const { recipes, loading, error } = usePopularRecipes();
-
-  console.log(recipes, loading, error);
+  const { recipes } = usePopularRecipes();
 
   return (
     <>
