@@ -89,7 +89,7 @@ export const Title = styled.h3`
 `;
 
 export const Description = styled.p`
-  color: rgba(5, 5, 5, 0.8);
+  color: ${({ theme }) => theme.colors.black80};
 
   font-size: 12px;
   line-height: 16px;

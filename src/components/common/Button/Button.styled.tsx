@@ -63,11 +63,11 @@ export const StyledButton = styled.button<{
     `
     padding: 14px 28px;
 
-    color: rgba(5, 5, 5, 0.5);
+    color: ${theme.colors.black50};
 
     background-color: transparent;
     
-    border: 1px solid rgba(5, 5, 5, 0.2);
+    border: 1px solid ${theme.colors.black20};
 
     font-weight: 500;
     font-size: 18px;
@@ -136,7 +136,7 @@ export const StyledButton = styled.button<{
     variant === 'text' &&
     location === 'filters' &&
     `
-    color:  rgba(5, 5, 5, 0.5);
+    color:  ${theme.colors.black50};
 
     font-size: 12px;
     line-height: 16px;
